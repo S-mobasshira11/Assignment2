@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Assignment2</string>
+    <string name="dialogue">Choose an Option</string>
+    <string name="movie1">The Conjuring</string>
+    <string name="movie2">Annabelle</string>
+    <string name="movie3">John Wick</string>
+    <string name="movie4">Mission Impossible Fallout</string>
+    <string name="movie5">Avengers</string>
+    <string name="movie6">Babys Day Out</string>
+    <string name="movie7">Joker</string>
+    <string name="song1">In The End</string>
+    <string name="song2">Despacito</string>
+    <string name="song3">Girls Like You</string>
+    <string name="song4">See You Again</string>
+    <string name="song5">Uptown Funk</string>
+    <string name="song6">Numb</string>
+    <string name="song7">Counting Stars</string>
+    <string name="series1">Big Bang Theory</string>
+    <string name="series2">Sherlock</string>
+    <string name="series3">Witcher</string>
+    <string name="series4">Breaking Bad</string>
+    <string name="series5">Narcos</string>
+    <string name="series6">The Vampire Diaries</string>
+    <string name="series7">F . R . I . E . N . D . S</string>
+</resources>

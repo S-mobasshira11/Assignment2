@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdActivity">
+
+    <ImageView
+        android:id="@+id/img7"
+        android:onClick="back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/moviepic9"
+        />
+    <ImageView
+        android:id="@+id/img6"
+        android:onClick="showimage7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/moviepic8"
+        />
+    <ImageView
+        android:id="@+id/img5"
+        android:onClick="showimage6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/moviepic7"
+        />
+    <ImageView
+        android:id="@+id/img4"
+        android:onClick="showimage5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/moviepic6"
+        />
+    <ImageView
+        android:id="@+id/img3"
+        android:onClick="showimage4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/moviepic5"
+        />
+    <ImageView
+        android:id="@+id/img2"
+        android:onClick="showimage3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/moviepic2"
+        />
+    <ImageView
+        android:id="@+id/img1"
+        android:onClick="showimage2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/movie1pic1"
+        />
+
+
+</FrameLayout>

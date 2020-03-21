@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundlogo"
+    tools:context=".SecondActivity">
+
+
+    <TextView
+            android:id="@+id/user"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+    <TextView
+            android:layout_marginTop="100dp"
+            android:text="Pick an Option"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:gravity="center"
+            android:textColor="#FFFF"
+            />
+
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="361dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:onClick="showMovie"
+        android:background="#FFFF"
+        android:text="MOVIE"
+
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:background="#FFFF"
+        android:layout_width="357dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:onClick="showMusic"
+        android:text="MUSIC"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:background="#FFFF"
+        android:layout_width="357dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:onClick="showTVseries"
+        android:text="TV-SERIES"
+        android:textSize="20dp" />
+
+
+
+
+
+
+
+
+
+
+
+</TableLayout>

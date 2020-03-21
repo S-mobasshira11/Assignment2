@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FourthActivity">
+    <ImageView
+        android:id="@+id/img14"
+        android:onClick="back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/tvseriespic8"
+        />
+    <ImageView
+        android:id="@+id/img13"
+        android:onClick="showimg14"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/tvseriespic2"
+        />
+
+    <ImageView
+        android:id="@+id/img12"
+        android:onClick="showimg13"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/tvseriespic5"
+        />
+    <ImageView
+        android:id="@+id/img11"
+        android:onClick="showimg12"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/tvseriespic4"
+        />
+    <ImageView
+        android:id="@+id/img10"
+        android:onClick="showimg11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/tvseriespic3"
+        />
+    <ImageView
+        android:id="@+id/img9"
+        android:onClick="showimg10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/tvseriespic6"
+        />
+    <ImageView
+        android:id="@+id/img8"
+        android:onClick="showimg9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/tvseriespic7"
+        />
+
+
+
+</FrameLayout>
