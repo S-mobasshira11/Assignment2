@@ -70,6 +70,7 @@
         android:layout_width="250dp"
         android:background="#FFFF"
         android:layout_height="50dp"
+        android:foreground="?android:attr/selectableItemBackground"
         android:layout_alignParentStart="false"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
