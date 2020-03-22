@@ -2,7 +2,7 @@
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backgroundlogo"
+    android:background="@color/colorPrimary"
     android:paddingLeft="10dp"
     android:paddingRight="10dp" >
     <TableRow
@@ -24,124 +24,145 @@
             android:layout_weight="1"
             android:text="Genre" />
     </TableRow>
-    <TableRow android:background="#DAE8FC" android:padding="5dp">
+    <TableRow android:background="#EEE43948" android:padding="5dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="1" />
+            android:text="1"
+            android:textColor="@color/colorPrimary"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/movie1" />
+            android:text="@string/movie1"
+            android:textColor="@color/colorPrimary"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Horror" />
+            android:text="Horror"
+            android:textColor="@color/colorPrimary"/>
     </TableRow>
-    <TableRow android:background="#DAE8FC" android:padding="5dp">
+    <TableRow android:background="#EEE43948" android:padding="5dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="2" />
+            android:text="2"
+            android:textColor="@color/colorPrimary"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/movie2" />
+            android:text="@string/movie2"
+            android:textColor="@color/colorPrimary"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Horror" />
+            android:text="Horror"
+            android:textColor="@color/colorPrimary"/>
     </TableRow>
-    <TableRow android:background="#DAE8FC" android:padding="5dp">
+    <TableRow android:background="#EEE43948" android:padding="5dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="3" />
+            android:text="3"
+            android:textColor="@color/colorPrimary"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/movie3" />
+            android:text="@string/movie3"
+            android:textColor="@color/colorPrimary"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Action" />
+            android:text="Action"
+            android:textColor="@color/colorPrimary"/>
     </TableRow>
-    <TableRow android:background="#DAE8FC" android:padding="5dp">
+    <TableRow android:background="#EEE43948" android:padding="5dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="4" />
+            android:text="4"
+            android:textColor="@color/colorPrimary"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/movie4" />
+            android:text="@string/movie4"
+            android:textColor="@color/colorPrimary"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Action" />
+            android:text="Action"
+            android:textColor="@color/colorPrimary"/>
     </TableRow>
-    <TableRow android:background="#DAE8FC" android:padding="5dp">
+    <TableRow android:background="#EEE43948" android:padding="5dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="5" />
+            android:text="5"
+            android:textColor="@color/colorPrimary"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/movie5" />
+            android:text="@string/movie5"
+            android:textColor="@color/colorPrimary"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Action" />
+            android:text="Action"
+            android:textColor="@color/colorPrimary"/>
     </TableRow>
-    <TableRow android:background="#DAE8FC" android:padding="5dp">
+    <TableRow android:background="#EEE43948" android:padding="5dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="6" />
+            android:text="6"
+            android:textColor="@color/colorPrimary"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/movie6" />
+            android:text="@string/movie6"
+            android:textColor="@color/colorPrimary"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Comedy" />
+            android:text="Comedy"
+            android:textColor="@color/colorPrimary"/>
     </TableRow>
-    <TableRow android:background="#DAE8FC" android:padding="5dp">
+    <TableRow android:background="#EEE43948" android:padding="5dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="7" />
+            android:text="7"
+            android:textColor="@color/colorPrimary"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/movie7" />
+            android:text="@string/movie7"
+            android:textColor="@color/colorPrimary"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Thriller" />
+            android:text="Thriller"
+            android:textColor="@color/colorPrimary"/>
     </TableRow>
 
     <Button
@@ -150,8 +171,10 @@
         android:layout_marginTop="200dp"
         android:layout_marginLeft="1dp"
         android:layout_width="125dp"
-        android:background="#FFFF"
+        android:background="#EEE43948"
         android:text="Next"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
         />
 
 </TableLayout>

@@ -5,14 +5,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backgroundlogo"
+    android:background="@color/colorPrimary"
     tools:context=".AbsoluteActivity">
 
     <TextView
         android:layout_width="1070px"
         android:layout_height="220px"
         android:text="  Back to Main Menu?"
-        android:textColor="@color/colorPrimary"
+        android:textColor="#EEE43948"
         android:textSize="40dp"
         android:layout_x="2dp"
         android:layout_y="130dp" />
@@ -23,18 +23,20 @@
         android:layout_height="wrap_content"
         android:layout_x="128dp"
         android:layout_y="253dp"
-        android:background="@color/colorPrimary"
+        android:background="#EEE43948"
+        android:textColor="@color/colorPrimary"
         android:onClick="main1"
         android:text="YES" />
 
     <Button
         android:id="@+id/button5"
-        android:background="@color/colorPrimary"
+        android:background="#EEE43948"
         android:layout_width="153dp"
         android:layout_height="wrap_content"
         android:layout_x="129dp"
         android:layout_y="324dp"
         android:onClick="main2"
-        android:text="Logout" />
+        android:text="Logout"
+        android:textColor="@color/colorPrimary"/>
 
 </AbsoluteLayout>

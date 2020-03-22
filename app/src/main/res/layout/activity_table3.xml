@@ -2,7 +2,7 @@
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backgroundlogo"
+    android:background="@color/colorPrimary"
     android:paddingLeft="10dp"
     android:paddingRight="10dp" >
     <TableRow
@@ -24,124 +24,145 @@
             android:layout_weight="1"
             android:text="Genre" />
     </TableRow>
-    <TableRow android:background="#DAE8FC" android:padding="5dp">
+    <TableRow android:background="#EEE43948" android:padding="5dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="1" />
+            android:text="1"
+            android:textColor="@color/colorPrimary"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/song1" />
+            android:text="@string/song1"
+            android:textColor="@color/colorPrimary"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Rock , Metal" />
+            android:text="Rock , Metal"
+            android:textColor="@color/colorPrimary"/>
     </TableRow>
-    <TableRow android:background="#DAE8FC" android:padding="5dp">
+    <TableRow android:background="#EEE43948" android:padding="5dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="2" />
+            android:text="2"
+            android:textColor="@color/colorPrimary"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/song2" />
+            android:text="@string/song2"
+            android:textColor="@color/colorPrimary"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Latin pop" />
+            android:text="Latin pop"
+            android:textColor="@color/colorPrimary"/>
     </TableRow>
-    <TableRow android:background="#DAE8FC" android:padding="5dp">
+    <TableRow android:background="#EEE43948" android:padding="5dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="3" />
+            android:text="3"
+            android:textColor="@color/colorPrimary"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/song3" />
+            android:text="@string/song3"
+            android:textColor="@color/colorPrimary"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Pop rock" />
+            android:text="Pop rock"
+            android:textColor="@color/colorPrimary"/>
     </TableRow>
-    <TableRow android:background="#DAE8FC" android:padding="5dp">
+    <TableRow android:background="#EEE43948" android:padding="5dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="4" />
+            android:text="4"
+            android:textColor="@color/colorPrimary"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/song4" />
+            android:text="@string/song4"
+            android:textColor="@color/colorPrimary"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Hip hop" />
+            android:text="Hip hop"
+            android:textColor="@color/colorPrimary"/>
     </TableRow>
-    <TableRow android:background="#DAE8FC" android:padding="5dp">
+    <TableRow android:background="#EEE43948" android:padding="5dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="5" />
+            android:text="5"
+            android:textColor="@color/colorPrimary"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/song5" />
+            android:text="@string/song5"
+            android:textColor="@color/colorPrimary"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Disco pop" />
+            android:text="Disco pop"
+            android:textColor="@color/colorPrimary"/>
     </TableRow>
-    <TableRow android:background="#DAE8FC" android:padding="5dp">
+    <TableRow android:background="#EEE43948" android:padding="5dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="6" />
+            android:text="6"
+            android:textColor="@color/colorPrimary"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/song6" />
+            android:text="@string/song6"
+            android:textColor="@color/colorPrimary"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Rock,Metal" />
+            android:text="Rock,Metal"
+            android:textColor="@color/colorPrimary"/>
     </TableRow>
-    <TableRow android:background="#DAE8FC" android:padding="5dp">
+    <TableRow android:background="#EEE43948" android:padding="5dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="7" />
+            android:text="7"
+            android:textColor="@color/colorPrimary"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/song7" />
+            android:text="@string/song7"
+            android:textColor="@color/colorPrimary"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Folk pop" />
+            android:text="Folk pop"
+            android:textColor="@color/colorPrimary"/>
     </TableRow>
 
     <Button
@@ -150,8 +171,10 @@
             android:layout_marginTop="200dp"
             android:layout_marginLeft="1dp"
             android:layout_width="125dp"
-            android:background="#FFFF"
+            android:background="#EEE43948"
+            android:textColor="@color/colorPrimary"
             android:text="Next"
+            android:textStyle="bold"
             />
 
 

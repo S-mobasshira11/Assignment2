@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backgroundlogo"
+    android:background="@color/colorPrimary"
     tools:context=".SecondActivity">
 
 
@@ -13,14 +13,14 @@
             android:textSize="40dp"
             android:gravity="center"
             android:textStyle="bold"
-            android:textColor="@color/colorPrimary"/>
+            android:textColor="#EEE43948"/>
     <TextView
             android:layout_marginTop="100dp"
             android:text="Pick an Option"
             android:textStyle="bold"
             android:textSize="35dp"
             android:gravity="center"
-            android:textColor="#FFFF"
+            android:textColor="#EEE43948"
             />
 
 
@@ -32,14 +32,16 @@
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
         android:onClick="showMovie"
-        android:background="#FFFF"
+        android:background="#EEE43948"
+        android:textColor="@color/colorPrimary"
         android:text="MOVIE"
         android:drawableLeft="@drawable/ic_movie_studio_icon"
         android:textSize="20dp" />
 
     <Button
         android:id="@+id/button3"
-        android:background="#FFFF"
+        android:background="#EEE43948"
+        android:textColor="@color/colorPrimary"
         android:layout_width="357dp"
         android:layout_height="70dp"
         android:layout_gravity="center"
@@ -51,12 +53,13 @@
 
     <Button
         android:id="@+id/button4"
-        android:background="#FFFF"
+        android:background="#EEE43948"
         android:layout_width="357dp"
         android:layout_height="70dp"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
         android:onClick="showTVseries"
+        android:textColor="@color/colorPrimary"
         android:drawableLeft="@drawable/ic_icon_tvseries"
         android:text="TV-SERIES"
         android:textSize="20dp" />
